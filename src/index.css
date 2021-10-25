@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    height: 100vh;
+}
+
+#root{
+    height: 100%;
+}
+
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+th{
+    background: #C4C4C4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+
+td{
+    height: 40px;
+    background-color: antiquewhite;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.btn{
+    width: 132px;
+    height: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    border:none;
+}
